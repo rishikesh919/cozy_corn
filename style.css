@@ -1,0 +1,108 @@
+/* Cozy Palette: #F5F5DC (Beige), #D2B48C (Tan), #6F4E37 (Coffee) */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif; /* Gives a book-like feel */
+}
+
+body {
+    background-color: #FAF9F6; /* Off-white / Cream */
+    color: #4A3728; /* Dark chocolate text */
+    line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #EADDCA;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #8B5E3C;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #8B5E3C;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+/* Hero Section */
+.hero {
+    height: 60vh;
+    background-color: #EADDCA; /* Soft tan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content {
+    background: rgba(255, 255, 255, 0.6);
+    padding: 40px;
+    border-radius: 50px 5px 50px 5px; /* Aesthetic irregular corners */
+    border: 1px solid #FFFFFF;
+}
+
+.hero h1 {
+    font-size: 2.2rem;
+    color: #5C4033;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #8B5E3C;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Main Content */
+.intro {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 0.8rem;
+    color: #A0816C;
+}
+.grid {
+    display: grid;
+    /* This creates 2 columns on a phone */
+    grid-template-columns: 1fr 1fr; 
+    gap: 15px;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* This crops the image perfectly */
+    border-radius: 15px;
+}
